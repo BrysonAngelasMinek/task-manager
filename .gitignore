@@ -1,0 +1,19 @@
+# Ignore virtual environment
+taskmanager-venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore system files (macOS/Linux/Windows)
+.DS_Store
+Thumbs.db

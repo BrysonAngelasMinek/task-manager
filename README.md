@@ -30,16 +30,17 @@ Containerization using Docker for deployment
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/task-manager.git
-cd task-manager
+git clone https://github.com/BrysonAngelasMinek/task-manager.git cd task-manager
 
 2️⃣ Set Up a Virtual Environment
 
-python -m venv venv
-# On macOS/Linux:
-source venv/bin/activate
-# On Windows:
-venv\Scripts\activate
+python -m venv taskmanager-venv
+
+On macOS/Linux:
+source taskmanager-venv/bin/activate
+
+On Windows:
+taskmanager-venv\Scripts\activate
 
 3️⃣ Install Dependencies
 
@@ -71,8 +72,6 @@ Delete a Task: Remove a task permanently.
 
 Exit: Quit the application.
 
-
-
 ⚙️ Tech Stack & Dependencies
 
 Language: Python 3.x
@@ -99,10 +98,9 @@ python -m unittest discover tests
 
 Test Coverage (optional): Use coverage.py to measure how much of your code is covered by tests.
 
-coverage run -m pytest
-coverage report -m
+coverage run -m pytest coverage report -m
 
-(If you’re just getting started, you can note that testing is planned, or show minimal tests and expand coverage as you implement new features.)
+🛑 Note: Testing is currently at 0% because we just started the project. As we develop more features, we will expand test coverage accordingly. If you're just getting started, you can note that testing is planned, or show minimal tests and expand coverage as you implement new features.
 
 🚧 Project Status
 
@@ -133,4 +131,3 @@ click / argparse for simplifying CLI command parsing
 Inspiration from popular task management tools, both open-source and commercial
 
 📌 Status: Ongoing📅 Last Updated: 2/7/2025
-
